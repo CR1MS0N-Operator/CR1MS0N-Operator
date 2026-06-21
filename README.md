@@ -1,37 +1,26 @@
-# Darrius Grate
+# 👋 I'm Darrius Grate — `@ForeverLX`
 
-**Offensive Security Researcher** — AI-augmented red team infrastructure, adversarial robustness evaluation, container boundary analysis.
-
-Building systems that operate *before* adversaries execute. Proactive security over reactive incident response.
-
----
-
-## Research Focus
-
-- **Adversarial robustness of AI-augmented security infrastructure** — systematic evaluation of failure modes when LLMs are integrated into operational security tooling
-- **Container boundary analysis** — privilege escalation paths in rootless container runtimes, OCI hook execution surfaces, GPU multi-tenant isolation
-- **Red team infrastructure architecture** — reproducible C2 deployment pipelines, redirector-as-pivot topologies, OPSEC-hardened operational environments
-- **Automated threat intelligence** — behavioral baselining, cross-target correlation, CVE-to-surface mapping with LLM-enriched triage
+**Red team operator, security tool builder, reverse engineer.**  
+I build the tools that make offensive security operations faster, stealthier, and more automated.
 
 ---
 
-## Background
+## 🏛️ Three Pillars
 
-My path to offensive security research is deliberate and compounding:
-
-**Physical security operations** (4+ years) → developed analytical discipline, incident documentation, structured reporting, and the patience to observe adversary behavior before acting.
-
-**Enterprise technical support** (GetInsured) → honed technical communication across technical and non-technical audiences, HIPAA-regulated process discipline, and high-volume structured triage (120 cases/week). Selected for specialized leadership-development team (6 individuals).
-
-**Practitioner-led apprenticeship** (4Sec-LLC) → hands-on offensive security training under active red team operators and threat intelligence practitioners. Real-world scenario emphasis over certification chasing. Received ROPS-RT1 training kit at HackSpaceCon 2026.
-
-**Independent research & infrastructure** (Azrael Security) → combining operational security experience with deep technical research. Building reproducible infrastructure, publishing vulnerability analysis, and designing proactive evaluation frameworks. Building Azrael Security for Q3 2026 launch.
-
-Each phase compounds into a research approach that is operationally grounded, rigorously documented, and adversary-aware.
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│   🛡️ Red Team Infrastructure     (primary)                 │
+│   🤖 Agentic Security Architecture (secondary)              │
+│   🔬 RE & Threat Intelligence     (sustaining)              │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## Selected Work
+*Building offensive tools, one commit at a time."Below the abstraction."*
+---
 
 ### [Veil](https://github.com/ForeverLX/veil) — Red Team Infrastructure
 Three-node WireGuard mesh with dedicated Alpine redirector VM (Hermes). NixOS C2 node (Mythic + Poseidon/Apollo agents), Alpine TLS redirector (nginx), Arch edge node (Cerberus). Hub-and-spoke topology built for realistic engagement OPSEC — WireGuard-only C2 access, nftables rate limiting, Cowrie honeypot on external SSH, Suricata IDS, Pi-hole DNS sinkhole. Self-hosted service stack: Gitea, Vaultwarden, SearXNG, Caddy TLS.
@@ -47,9 +36,6 @@ Reproducible Arch Linux workstation built for red team operators and AI agent or
 
 ### [ACLGuard](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor) — AD ACL Analyzer
 C-based Active Directory permission analyzer identifying DACL misconfigurations and privilege escalation paths. CSV/JSON export for integration with continuous assessment workflows. Lightweight single binary with minimal dependencies.
-
-### [azrael-ops-dashboard](https://github.com/ForeverLX/azrael-ops-dashboard) — Operations Dashboard
-Go operations dashboard monitoring Veil infrastructure: Mythic C2 health, WireGuard tunnel status, Suricata alerts, Cowrie honeypot events, Pi-hole metrics, nftables rule visualization. Single-pane operational awareness for red team lab environments. SQLite-backed, SSE live updates, templ templates.
 
 ---
 
@@ -84,16 +70,21 @@ Go operations dashboard monitoring Veil infrastructure: Mythic C2 health, WireGu
 
 - **OWASP Las Vegas** — Chapter Leader (Dec 2025 – Mar 2026)
 - **HackSpaceCon 2026** — Volunteer
-- **DEF CON Red Team Village** — Volunteer (upcoming)
 
 ---
 
-## Connect
+## 📊 GitHub Stats
 
-- **Site:** [azraelsec.dev](https://azraelsec.dev)
+![ForeverLX's GitHub stats](https://github-readme-stats.vercel.app/api?username=ForeverLX&show_icons=true&theme=dark&hide_border=true)
+
+---
+
+## 📫 Connect
+
+- **Site:** [azraelsecurity.vercel.app](https://azraelsecurity.vercel.app)
 - **LinkedIn:** [linkedin.com/in/darrius-grate](https://linkedin.com/in/darrius-grate)
+- **X/Twitter:** [@ForeverLX](https://x.com/ForeverLX)
 - **Email:** Darrius.G@proton.me
 
+*Independent security researcher.*
 ---
-
-*Independent security researcher. Building Azrael Security — "Below the abstraction."*
