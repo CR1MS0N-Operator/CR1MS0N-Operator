@@ -74,12 +74,5 @@ C-based Active Directory permission analyzer identifying DACL misconfigurations 
 
 ---
 
-## 📫 Connect
-
-- **Site:** [azraelsecurity.vercel.app](https://azraelsecurity.vercel.app)
-- **LinkedIn:** [linkedin.com/in/darrius-grate](https://linkedin.com/in/darrius-grate)
-- **X/Twitter:** [@ForeverLX](https://x.com/ForeverLX)
-- **Email:** Darrius.G@proton.me
-
 *Independent security researcher.*
 ---
