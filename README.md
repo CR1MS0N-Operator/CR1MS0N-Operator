@@ -1,4 +1,4 @@
-# 👋 I'm Darrius Grate — `@ForeverLX`
+# 👋 I'm Darrius Grate — `@CR1MS0N`
 
 **Red team operator, security tool builder, reverse engineer.**  
 I build the tools that make offensive security operations faster, stealthier, and more automated.
@@ -16,25 +16,20 @@ I build the tools that make offensive security operations faster, stealthier, an
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
-
 ---
-
 *Building offensive tools, one commit at a time."Below the abstraction."*
 ---
 
-### [Veil](https://github.com/ForeverLX/veil) — Red Team Infrastructure
+### [Veil](https://github.com/CR1MS0N-Operator/veil) — Red Team Infrastructure
 Three-node WireGuard mesh with dedicated Alpine redirector VM (Hermes). NixOS C2 node (Mythic + Poseidon/Apollo agents), Alpine TLS redirector (nginx), Arch edge node (Cerberus). Hub-and-spoke topology built for realistic engagement OPSEC — WireGuard-only C2 access, nftables rate limiting, Cowrie honeypot on external SSH, Suricata IDS, Pi-hole DNS sinkhole. Self-hosted service stack: Gitea, Vaultwarden, SearXNG, Caddy TLS.
 
-### [euphrates](https://github.com/ForeverLX/euphrates) — CVE Research Pipeline
-Go-based continuous attack surface monitoring and CVE root cause research. Multi-source feed ingestion (NVD API v2, OSV.dev), behavioral baselining (TLS fingerprinting, header analysis), and LLM-enriched triage via OpenRouter API. Maps published CVEs to live target surfaces with confidence scoring. Single binary, SQLite-backed, systemd-timed.
-
-### [security-research](https://github.com/ForeverLX/security-research) — Container Boundary Research
+### [security-research](https://github.com/CR1MS0N-Operator/security-research) — Container Boundary Research
 Analysis of OCI hook execution in rootless Podman deployments. CVE-2025-23266 investigation, threat modeling for GPU-enabled multi-tenant environments. Published whitepaper on container escape primitives and privilege boundary enforcement. Technique library with MITRE ATT&CK mapping: Kerberoasting, AS-REP Roasting, DCSync, Golden Ticket, ADCS abuse.
 
-### [NightForge](https://github.com/ForeverLX/nightforge) — Operator Workstation for Red Team & AI Agent Operations
+### [NightForge](https://github.com/CR1MS0N-Operator/nightforge) — Operator Workstation for Red Team & AI Agent Operations
 Reproducible Arch Linux workstation built for red team operators and AI agent orchestration. Niri Wayland compositor with scrolling tiling. Quickshell 0.2.1 UI layer: per-screen glassmorphism bar, widget overlay system (ControlCenter, Music, Network, WallpaperPicker, StatusMonitor, Monitor), morph transitions. Matugen dynamic theming extracts Catppuccin Mocha palette from wallpaper. Real-time services: VPN status (WireGuard), Podman containers, MPD media, system health. Operator terminal framework surfaces engagement context, MITRE ATT&CK technique logging, and container status on every shell launch. Rootless Podman profiles (ad, re, web, toolbox) for isolated offensive workflows.
 
-### [ACLGuard](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor) — AD ACL Analyzer
+### [ACLGuard](https://github.com/CR1MS0N-Operator/ACLGuard-Active-Directory-Permission-Auditor) — AD ACL Analyzer
 C-based Active Directory permission analyzer identifying DACL misconfigurations and privilege escalation paths. CSV/JSON export for integration with continuous assessment workflows. Lightweight single binary with minimal dependencies.
 
 ---
