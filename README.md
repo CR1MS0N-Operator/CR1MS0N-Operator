@@ -5,10 +5,10 @@
 I build the tooling that makes offensive security operations faster, stealthier, and more automated — from C2 infrastructure to operator workstations to the research behind them.
 
 [![GitHub followers](https://img.shields.io/github/followers/CR1MS0N-Operator?style=for-the-badge&logo=github&color=181717)](https://github.com/CR1MS0N-Operator)
-[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://github.com/CR1MS0N-Operator/ACLGuard-Active-Directory-Permission-Auditor)
+[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://github.com/CR1MS0N-Operator/Lant3rn)
+[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/CR1MS0N-Operator/nightforge)
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://github.com/CR1MS0N-Operator/c4)
-[![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://github.com/CR1MS0N-Operator/veil)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/CR1MS0N-Operator/azrael-security)
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://github.com/CR1MS0N-Operator/veil)
 
 ---
 
@@ -38,8 +38,8 @@ Single CLI to deploy, manage, and destroy C2 frameworks (Mythic, Sliver). Orches
 ### [nightforge](https://github.com/CR1MS0N-Operator/nightforge) — Operator Workstation
 Reproducible Arch Linux workstation for red team operators and AI agent orchestration. Niri Wayland compositor, Quickshell UI layer with glassmorphism bars, Matugen dynamic theming — plus rootless Podman profiles (`ad`, `re`, `web`) isolating offensive workflows.
 
-### [ACLGuard](https://github.com/CR1MS0N-Operator/ACLGuard-Active-Directory-Permission-Auditor) — AD Permission Auditor
-C-based Active Directory permission analyzer that flags DACL misconfigurations and privilege escalation paths. Lightweight single binary with CSV/JSON export for continuous assessment pipelines.
+### [Lant3rn](https://github.com/CR1MS0N-Operator/Lant3rn) — AD Permission Auditor (formerly ACLGuard)
+C-based Active Directory group membership and permission analyzer. Enumerates high-risk group memberships and ACL assignments via LDAP, identifies privilege escalation paths, and exports CSV/JSON for continuous assessment pipelines.
 
 ### [security-research](https://github.com/CR1MS0N-Operator/security-research) — Container Boundary Research
 Original research into container boundary weaknesses. Published analysis of OCI hook privilege escalation in rootless Podman deployments (CVE-2025-23266), plus a MITRE ATT&CK-mapped technique library covering Kerberoasting, AS-REP Roasting, DCSync, Golden Ticket, and ADCS abuse.
