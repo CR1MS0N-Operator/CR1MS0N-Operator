@@ -29,7 +29,7 @@ I build the tooling that makes offensive security operations faster, stealthier,
 
 ## 🛠️ Projects
 
-### [veil](https://github.com/CR1MS0N-Operator/veil) — Red Team Infrastructure as Code
+### [V3IL](https://github.com/CR1MS0N-Operator/veil) — Red Team Infrastructure as Code
 Production-grade infrastructure with a multi-node WireGuard mesh. NixOS C2 node (Mythic), Alpine TLS redirector, Arch edge node — with automated threat scoring, nftables-based IPS, and realistic engagement OPSEC built in.
 
 ### [c4](https://github.com/CR1MS0N-Operator/c4) — C2 Control Center
