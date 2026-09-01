@@ -41,7 +41,7 @@ Production-grade offensive security homelab built entirely as code. Multi-node W
 Deploy, manage, and destroy C2 frameworks (Mythic, Sliver) from one CLI. Orchestrates infrastructure through GraphQL and Docker Compose.
 
 ### [security-research](https://github.com/CR1MS0N-Operator/security-research) — Container Boundary Research
-Original research into container boundary weaknesses. CVE-2025-23266 — OCI hook isolation failures in the NVIDIA Container Toolkit.
+Original research into container boundary weaknesses. Analysis of the CVE-2024-0132 → CVE-2025-23359 → CVE-2025-23266 chain — OCI hook isolation failures in the NVIDIA Container Toolkit.
 
 ---
 
