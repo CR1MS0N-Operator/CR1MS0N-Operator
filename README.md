@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Darrius Grate — `@CR1MS0N`
 
-**Red team operator · security tool builder · reverse engineer.**
+**Security Research · Agentic Architecture · Reverse Engineer.**
 
 I build the tooling that makes offensive security operations faster, stealthier, and more automated — from C2 infrastructure to operator workstations to the research behind them.
 
@@ -17,8 +17,8 @@ I build the tooling that makes offensive security operations faster, stealthier,
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│   🛡️ Red Team Infrastructure      (primary)                 │
-│   🤖 Active Directory Security    (secondary)               │
+│   🛡️ Security Research            (primary)                 │
+│   🤖 Agentic Architecture         (secondary)               │
 │   🔬 RE & Threat Intelligence     (sustaining)              │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
@@ -29,14 +29,14 @@ I build the tooling that makes offensive security operations faster, stealthier,
 
 ## 🛠️ Projects
 
+### [nightforge](https://github.com/CR1MS0N-Operator/nightforge) — Operator Workstation
+Reproducible Arch Linux workstation for red team operators and AI agent orchestration. Niri Wayland compositor, Quickshell UI layer with glassmorphism bars, Matugen dynamic theming — plus rootless Podman profiles (`ad`, `re`, `web`) isolating offensive workflows.
+
 ### [V3IL](https://github.com/CR1MS0N-Operator/veil) — Red Team Infrastructure as Code
 Production-grade infrastructure with a multi-node WireGuard mesh. NixOS C2 node (Mythic), Alpine TLS redirector, Arch edge node — with automated threat scoring, nftables-based IPS, and realistic engagement OPSEC built in.
 
 ### [c4](https://github.com/CR1MS0N-Operator/c4) — C2 Control Center
 Single CLI to deploy, manage, and destroy C2 frameworks (Mythic, Sliver). Orchestrates infrastructure through GraphQL (Hasura) and Docker Compose — standing up and tearing down full environments on demand.
-
-### [nightforge](https://github.com/CR1MS0N-Operator/nightforge) — Operator Workstation
-Reproducible Arch Linux workstation for red team operators and AI agent orchestration. Niri Wayland compositor, Quickshell UI layer with glassmorphism bars, Matugen dynamic theming — plus rootless Podman profiles (`ad`, `re`, `web`) isolating offensive workflows.
 
 ### [Lant3rn](https://github.com/CR1MS0N-Operator/Lant3rn) — AD Permission Auditor (formerly ACLGuard)
 C-based Active Directory group membership and permission analyzer. Enumerates high-risk group memberships and ACL assignments via LDAP, identifies privilege escalation paths, and exports CSV/JSON for continuous assessment pipelines.
