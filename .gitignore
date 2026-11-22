@@ -5,3 +5,8 @@
 .beads-credential-key
 .beads/proxieddb/
 *.gate.lock*
+
+# Environment files may carry credentials
+.env
+.env.*
+!.env.example
