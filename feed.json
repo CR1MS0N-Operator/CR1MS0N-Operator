@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-11-22",
+  "releases": [
+    {
+      "title": "nightforge v0.5.0-beta",
+      "published_at": "2026-03-09T03:15:19Z",
+      "url": "https://github.com/CR1MS0N-Operator/nightforge/releases/tag/v0.5.0-beta"
+    },
+    {
+      "title": "nightforge v0.4.0",
+      "published_at": "2026-02-14T23:54:57Z",
+      "url": "https://github.com/CR1MS0N-Operator/nightforge/releases/tag/v0.4.0"
+    },
+    {
+      "title": "Lant3rn v1.0",
+      "published_at": "2026-01-23T01:57:17Z",
+      "url": "https://github.com/CR1MS0N-Operator/Lant3rn/releases/tag/v1.0"
+    }
+  ],
+  "research": [
+    {
+      "title": "Below the Abstraction: Hook Isolation Failures in the NVIDIA Container Toolkit",
+      "published_at": "2026-04-12",
+      "url": "https://github.com/CR1MS0N-Operator/security-research/blob/main/research/container-boundaries/README.md"
+    },
+    {
+      "title": "StackSmash CTF — re-2 Reverse Engineering",
+      "published_at": "2026-02-08",
+      "url": "https://github.com/CR1MS0N-Operator/security-research/blob/main/techniques/linux/re/re-2/README.md"
+    }
+  ]
+}
