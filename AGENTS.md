@@ -4,7 +4,7 @@ Guidance for AI coding agents working in this repository.
 
 ## What this repo is
 
-A GitHub profile repository. The only content is the profile README displayed on the CR1MS0N-Operator GitHub profile page.
+A GitHub profile repository: the profile README, theme-aware artwork, and a daily public release/research feed. Generated feed content is published on the `profile-feed` branch, separately from reviewed source on `main`.
 
 ## Language policy (operator rule, 2026-11-01, decision #289)
 
@@ -19,13 +19,20 @@ in a browser when an application genuinely needs a framework; services and APIs 
 TypeScript/Node backend is a violation, not an application of the exception. Static/content sites are
 content, not software.
 
-**No tier applies — this repo ships no software, only the GitHub profile README; no code exists to tier.**
+**The feed helper is a tool (Go)** — `cmd/profile-feed` uses the standard library only. The profile README and SVG assets remain content.
 
 Authority: decision #289 and `~/Documents/ai-lab-vault/AGENTS.md` § "Language policy". Open point: existing shell glue is thin operator glue, not software, and stays until touched.
 
 ## Commands
 
-There are no build, test, or run commands. This repo contains no code.
+```bash
+gofmt -w cmd/profile-feed
+go test ./...
+go vet ./...
+go run ./cmd/profile-feed -output .profile-feed
+```
+
+See [docs/PROFILE_FEED.md](docs/PROFILE_FEED.md) for sources, publishing, and recovery. Never hand-edit generated feed output or push it to `main`.
 
 ## Guardrails
 
