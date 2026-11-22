@@ -39,6 +39,20 @@ The environment I work in, the tooling I build, and where I share the results.
 - **[Container boundary research](https://github.com/CR1MS0N-Operator/security-research)** — Original analysis of NVIDIA Container Toolkit isolation failures and rootless Podman boundaries.
 - **[Lant3rn](https://github.com/CR1MS0N-Operator/Lant3rn)** — Active Directory permission auditing with LDAP enumeration, ATT&CK-mapped risk scoring, and structured output.
 
+## Latest releases & research
+
+Public releases and published research, refreshed daily. Raw research lives on GitHub; selected executive reports belong on [Azrael Security](https://azraelsecurity.vercel.app/research).
+
+<a href="https://github.com/CR1MS0N-Operator/CR1MS0N-Operator/blob/profile-feed/LATEST.md">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CR1MS0N-Operator/CR1MS0N-Operator/profile-feed/latest-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CR1MS0N-Operator/CR1MS0N-Operator/profile-feed/latest-light.svg">
+    <img src="https://raw.githubusercontent.com/CR1MS0N-Operator/CR1MS0N-Operator/profile-feed/latest-light.svg" alt="Latest releases and research digest. Open the text edition for full titles, dates, and individual links." width="600">
+  </picture>
+</a>
+
+[Text edition & individual links](https://github.com/CR1MS0N-Operator/CR1MS0N-Operator/blob/profile-feed/LATEST.md)
+
 <details>
 <summary>Certifications &amp; community</summary>
 
