@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">CR1MS0N — Below the abstraction.</title>
+  <desc id="desc">A crimson systems blueprint with three connected layers on a light background.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#d8dee6" stroke-width="0.6"/>
+    </pattern>
+    <radialGradient id="glow">
+      <stop stop-color="#b51f43" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#b51f43" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge">
+      <stop stop-color="#b51f43"/>
+      <stop offset="1" stop-color="#b51f43" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="12" fill="#f6f8fa"/>
+  <rect x="1" y="1" width="1198" height="318" rx="11" fill="url(#grid)"/>
+  <ellipse cx="971" cy="160" rx="260" ry="200" fill="url(#glow)"/>
+  <path d="M44 30H128" stroke="#b51f43" stroke-width="3"/>
+  <g font-family="ui-monospace, 'DejaVu Sans Mono', monospace">
+    <text x="44" y="65" fill="#576170" font-size="15" letter-spacing="2.5">RESEARCH / SYSTEMS / SECURITY</text>
+    <text x="38" y="170" fill="#1f2328" font-size="90" font-weight="700" letter-spacing="-5">CR1MS0N<tspan fill="#b51f43">_</tspan></text>
+    <text x="44" y="228" fill="#353e49" font-size="33" letter-spacing="-1">Below the abstraction.</text>
+    <text x="44" y="285" fill="#576170" font-size="15" letter-spacing="1.3">DARRIUS GRATE</text>
+  </g>
+  <g fill="none" stroke-linejoin="round">
+    <path d="M748 44H723V276H748M1128 44H1153V276H1128" stroke="#c9a3af"/>
+    <path d="M938 49V275M781 160H1095" stroke="#c9a3af" stroke-dasharray="3 7"/>
+    <path d="M938 150L1086 217L938 284L790 217Z" fill="#f1eaf0" stroke="#c08a9c"/>
+    <path d="M938 108L1086 175L938 242L790 175Z" fill="#f4e4eb" stroke="#c35e79"/>
+    <path d="M938 66L1086 133L938 200L790 133Z" fill="#f9dce5" stroke="url(#edge)" stroke-width="2"/>
+    <path d="M938 86L1042 133L938 180L834 133Z" stroke="#c35e79"/>
+    <path d="M938 107L996 133L938 159L880 133Z" stroke="#b51f43"/>
+    <path d="M790 133V217M1086 133V217M938 200V284" stroke="#b51f43" stroke-opacity="0.45"/>
+    <path d="M1096 105H1122V80M780 244H754V269" stroke="#b51f43" stroke-width="2"/>
+  </g>
+  <g fill="#b51f43">
+    <circle cx="938" cy="133" r="5"/>
+    <circle cx="790" cy="133" r="3"/>
+    <circle cx="1086" cy="133" r="3"/>
+    <circle cx="938" cy="284" r="3"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="11.5" fill="none" stroke="#d0d7de"/>
+</svg>

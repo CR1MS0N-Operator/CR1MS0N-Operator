@@ -1,72 +1,60 @@
-# 👋 Hi, I'm Darrius Grate — `@CR1MS0N`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner-light.svg" alt="CR1MS0N — Below the abstraction." width="1200">
+</picture>
 
-**Offensive Security Researcher & Tool Developer**
+# Darrius Grate
 
-I build the tooling that makes offensive security operations faster, stealthier, and more automated — from C2 infrastructure to operator workstations to the research behind them.
+**Security researcher · Systems builder · `@CR1MS0N-Operator`**
 
-[![GitHub followers](https://img.shields.io/github/followers/CR1MS0N-Operator?style=flat-square&logo=github&color=181717)](https://github.com/CR1MS0N-Operator)
-[![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)](https://github.com/CR1MS0N-Operator/Lant3rn)
-[![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/CR1MS0N-Operator/nightforge)
-[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://github.com/CR1MS0N-Operator/c4)
+I build reproducible operator workstations, security tooling, and the research behind them. My focus is turning complex security workflows into systems that can be understood, repeated, and validated.
 
----
+[Portfolio](https://azraelsecurity.vercel.app) · [Research](https://github.com/CR1MS0N-Operator/security-research) · [All repositories](https://github.com/CR1MS0N-Operator?tab=repositories)
 
-## 🏛️ Three Pillars
+## Selected work
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   🛡️ Red Team Infrastructure      (primary)                 │
-│   🤖 Active Directory Security    (secondary)               │
-│   🔬 RE & Threat Intelligence     (sustaining)              │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-*"Below the abstraction."*
+The environment I work in, the tooling I build, and where I share the results.
 
----
+### 01 / [NightForge](https://github.com/CR1MS0N-Operator/nightforge)
 
-## 🛠️ Projects
+**The operator workstation.** A reproducible Omarchy-based environment bringing security work and AI agent orchestration together, with rootless Podman toolchains and a validation harness.
 
-### [nightforge](https://github.com/CR1MS0N-Operator/nightforge) — The Kali Linux of the Agentic AI Age
-A reproducible [Omarchy](https://omarchy.org/)-based operator workstation designed for the intersection of offensive security and AI agent orchestration. Automated harness validation, rootless Podman container profiles, and a 10-layer observability stack.
+`Linux` `Go` `Podman` · [Explore NightForge](https://github.com/CR1MS0N-Operator/nightforge#readme)
 
-### [Lant3rn](https://github.com/CR1MS0N-Operator/Lant3rn) — AD Permission Auditor
-Lightweight Active Directory permission auditor — LDAP enumeration, MITRE ATT&CK-mapped risk scoring, deterministic JSON/CSV output. C implementation with Go rewrite in progress.
+### 02 / [C4](https://github.com/CR1MS0N-Operator/c4)
 
-### [V3IL](https://github.com/CR1MS0N-Operator/V3IL) — Red Team Infrastructure as Code
-Production-grade offensive security homelab built entirely as code. Multi-node WireGuard mesh with Mythic C2, automated threat scoring, and OPSEC built in.
+**The control plane.** A Go CLI for managing the lifecycle of C2 infrastructure in adversary-emulation environments. Compose-backed orchestration, provider abstractions, and scriptable output.
 
-### [c4](https://github.com/CR1MS0N-Operator/c4) — C2 Control Center
-Deploy, manage, and destroy C2 frameworks (Mythic, Sliver) from one CLI. Orchestrates infrastructure through GraphQL and Docker Compose.
+`Go` `Docker Compose` `GraphQL` · [Explore C4](https://github.com/CR1MS0N-Operator/c4#readme)
 
-### [security-research](https://github.com/CR1MS0N-Operator/security-research) — Container Boundary Research
-Original research into container boundary weaknesses. Analysis of the CVE-2024-0132 → CVE-2025-23359 → CVE-2025-23266 chain — OCI hook isolation failures in the NVIDIA Container Toolkit.
+### 03 / [Azrael Security](https://azraelsecurity.vercel.app)
 
----
+**The public portfolio.** Research, projects, and technical writeups, presented through an interactive terminal and a MITRE ATT&CK coverage explorer.
 
-## 🎓 Certifications & Training
+`Next.js` `TypeScript` `Tailwind CSS` · [Visit Azrael Security](https://azraelsecurity.vercel.app)
 
-**Completed**
-- **Active Directory Red Team Specialist (AD-RTS)** — CyberWarfare Labs, Nov 2025
-- **Certified Associate Penetration Tester (CAPT)** — HackViser, Dec 2025
-- **Certified Offensive Security Junior (COSJ)** — RedTeam Ops, Oct 2025
+## Below the surface
 
-**In Progress**
-- **Certified Red Team Analyst (CRTA)** — CyberWarfare Labs
-- **Red Team Operator Specialist (ROPS-RT1)** — Rogue Labs
-- **Red Team Infra Developer (CRT-ID)** — CyberWarfare Labs
+- **[Container boundary research](https://github.com/CR1MS0N-Operator/security-research)** — Original analysis of NVIDIA Container Toolkit isolation failures and rootless Podman boundaries.
+- **[Lant3rn](https://github.com/CR1MS0N-Operator/Lant3rn)** — Active Directory permission auditing with LDAP enumeration, ATT&CK-mapped risk scoring, and structured output.
 
-**Planned (post-CRTA pipeline)**
-- MCRTA, OCO-AI, BTF, PTF, CPIA, CRT-COI — CyberWarfare Labs
+<details>
+<summary>Certifications &amp; community</summary>
 
----
+### Completed certifications
 
-## 🌐 Community
+- **Active Directory Red Team Specialist (AD-RTS)** — CyberWarfare Labs
+- **Certified Associate Penetration Tester (CAPT)** — HackViser
+- **Certified Offensive Security Junior (COSJ)** — RedTeam Ops
 
-- **OWASP Las Vegas** — Chapter Leader (Dec 2025 – Mar 2026)
+### Community
+
+- **OWASP Las Vegas** — Chapter Leader, December 2025–March 2026
 - **HackSpaceCon 2026** — Volunteer
 
+</details>
+
 ---
 
-*Offensive Security Researcher & Tool Developer. Building the CR1MS0N platform.*
+<sub>Reproducible environments. Inspectable tooling. Research below the abstraction.</sub>
