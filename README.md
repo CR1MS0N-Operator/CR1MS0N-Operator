@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner-light.svg" alt="CR1MS0N — Below the abstraction." width="1200" height="320">
+  <img src="assets/banner-light.svg" alt="CR1MS0N — Below the abstraction." width="1200">
 </picture>
 
 # Darrius Grate
