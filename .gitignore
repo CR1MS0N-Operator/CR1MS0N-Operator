@@ -6,5 +6,10 @@
 .beads/proxieddb/
 *.gate.lock*
 
+# Environment files may carry credentials
+.env
+.env.*
+!.env.example
+
 # Local preview of the generated public feed
 .profile-feed/
