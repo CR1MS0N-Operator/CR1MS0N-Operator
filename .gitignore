@@ -10,3 +10,6 @@
 .env
 .env.*
 !.env.example
+
+# Local preview of the generated public feed
+.profile-feed/
