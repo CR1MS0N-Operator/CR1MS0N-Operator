@@ -1,6 +1,6 @@
 # Latest releases & research
 
-Checked 2026-11-22 (UTC). Refreshed daily from public sources.
+Checked 2026-11-24 (UTC). Refreshed daily from public sources.
 
 ## Releases
 
